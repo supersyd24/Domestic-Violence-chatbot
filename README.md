@@ -65,3 +65,15 @@ This flexibility in handling ambiguity builds a more human-like interaction styl
 The system's human-like interaction capabilities rely on dynamic responses that mirror genuine empathy. By combining contextual decision-making with nuanced emotional scaling, the chatbot creates interactions that feel personal and trustworthy.
 
 ---
+
+## DIET 
+
+### Intents 
+
+An intent represents the purpose or goal of a user's input. It answers the question: *What is the user trying to achieve?*
+
+- **Seeking Help:** The user wants to get immediate assistance.
+- **Sharing Experiences:** The user wants to talk about their situation.
+- **Asking for Resources:** The user is looking for shelters, legal aid, or hotlines.
+- **Safety Planning:** The user wants advice on creating a safety plan.
+- **Requesting Emotional Support:** The user needs reassurance or coping strategies.
