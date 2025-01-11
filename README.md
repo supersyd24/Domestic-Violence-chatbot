@@ -1,5 +1,7 @@
 # Domestic Violence Chatbot
 
+![Alt Text](dvgit.jpg)
+
 ## Fuzzy Logic to Emulate Empathy 
 
 ### Benifits of using Fuzzy Logic as an additional system apart from a LLM
