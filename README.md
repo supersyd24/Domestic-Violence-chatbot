@@ -76,4 +76,9 @@ An intent represents the purpose or goal of a user's input. It answers the quest
 - **Sharing Experiences:** The user wants to talk about their situation.
 - **Asking for Resources:** The user is looking for shelters, legal aid, or hotlines.
 - **Safety Planning:** The user wants advice on creating a safety plan.
-- **Requesting Emotional Support:** The user needs reassurance or coping strategies.
+- **Requesting Emotional Support:** The user needs reassurance or coping strategies. <br>
+
+*Example:* <br>
+User input: *"I need help getting out of an abusive relationship."*
+
+**Intent:** Seeking Help
