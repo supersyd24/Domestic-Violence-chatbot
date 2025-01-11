@@ -82,3 +82,13 @@ An intent represents the purpose or goal of a user's input. It answers the quest
 User input: *"I need help getting out of an abusive relationship."*
 
 **Intent:** Seeking Help
+
+### Entities
+
+An entity represents specific information extracted from the user's message. Entities provide details that refine or contextualize the intent. These can include names, locations, dates, times, or any other specific data. <br>
+
+*For example:*
+
+- **Type of Abuse:** Physical, emotional, financial, etc.
+- **Location:** City or region where the user needs help.
+- **Urgency Level:** "Now," "soon," "in a few weeks."
