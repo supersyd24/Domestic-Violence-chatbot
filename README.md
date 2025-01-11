@@ -1,6 +1,6 @@
 # Domestic Violence Chatbot
 
-<img src="dvgit.jpg" alt="Alt Text" width="200" />
+<img src="dvgit.jpg" alt="Alt Text" width="100" />
 
 ## Fuzzy Logic to Emulate Empathy 
 
