@@ -95,7 +95,7 @@ An entity represents specific information extracted from the user's message. Ent
 
 ### Intent and Enitities Together
 
-**User Input:** *"Can you tell me about shelters in Chicago?"*
+**User Input:** *"Can you tell me about shelters in Chicago?"* <br>
 **Intent:** Asking for Resources
 **Entities:** 
 
