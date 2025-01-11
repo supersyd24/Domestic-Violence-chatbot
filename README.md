@@ -92,3 +92,14 @@ An entity represents specific information extracted from the user's message. Ent
 - **Type of Abuse:** Physical, emotional, financial, etc.
 - **Location:** City or region where the user needs help.
 - **Urgency Level:** "Now," "soon," "in a few weeks."
+
+### Intent and Enitities Together
+
+**User Input:** *"Can you tell me about shelters in Chicago?"*
+**Intent:** Asking for Resources
+**Entities:** 
+
+- **Resource Type:** Shelters
+- **Location:** Chicago
+  
+
