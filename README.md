@@ -101,5 +101,8 @@ An entity represents specific information extracted from the user's message. Ent
 
 - **Resource Type:** Shelters
 - **Location:** Chicago
-  
+
+---
+
+## Memory 
 
