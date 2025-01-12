@@ -143,4 +143,5 @@ The chatbot will have a memory system to keep track of abuse documents like:
 1. The user requests a file: *"Show me the photo I uploaded last week."*
 2. The chatbot identifies the intent (`retrieve_evidence`) and matches the query using fuzzy logic.
 3. The requested file is retrieved and decrypted for secure access.
+   
 
