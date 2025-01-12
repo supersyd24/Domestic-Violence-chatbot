@@ -113,11 +113,24 @@ The chatbot will have a memory system to keep track of abuse documents like:
 - Photos
 - Videos
 
-### How it will work 
+### System Architecture
 
-The user would say something like: *"I want to upload a screenshot of abusive messages."* <br>
-The system's DIET **intent** classification system would then detect: **upload_evidence** <br>
-The **entity** would then be something like: **type_of_evidence = screenshot**
+#### 1. **Frontend**
+- Provides an interface for users to upload and retrieve files.
+- Built using frameworks like React or integrated with Rasa Webchat widget.
+
+#### 2. **Backend**
+- **API for File Handling**: Built with FastAPI or Django.
+- **Encryption**: Uses AES-256 encryption for secure file storage.
+- **Metadata Storage**: Relational database (e.g., PostgreSQL) for storing file metadata (e.g., file type, upload date, description).
+
+#### 3. **Cloud Storage**
+- Files are stored in a secure cloud storage service like AWS S3, Google Cloud Storage, or Firebase.
+- Server-side encryption and role-based access control (RBAC) are enabled.
+
+#### 4. **Chatbot**
+- Powered by Rasa with intents like `upload_evidence` and `retrieve_evidence`.
+- Fuzzy logic libraries (e.g., RapidFuzz) handle approximate string matching for retrieval queries.
 
 
 
