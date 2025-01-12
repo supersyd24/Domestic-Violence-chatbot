@@ -132,5 +132,15 @@ The chatbot will have a memory system to keep track of abuse documents like:
 - Powered by Rasa with intents like `upload_evidence` and `retrieve_evidence`.
 - Fuzzy logic libraries (e.g., RapidFuzz) handle approximate string matching for retrieval queries.
 
+### Usage
 
+#### Upload Evidence
+1. The user initiates an upload by typing: *"I want to upload a photo of abusive messages."*
+2. The chatbot detects the intent (`upload_evidence`) and prompts for file upload.
+3. The file is securely encrypted and stored.
+
+#### Retrieve Evidence
+1. The user requests a file: *"Show me the photo I uploaded last week."*
+2. The chatbot identifies the intent (`retrieve_evidence`) and matches the query using fuzzy logic.
+3. The requested file is retrieved and decrypted for secure access.
 
