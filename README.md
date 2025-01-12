@@ -116,6 +116,8 @@ The chatbot will have a memory system to keep track of abuse documents like:
 ### How it will work 
 
 The user would say something like: *"I want to upload a screenshot of abusive messages."* <br>
-The system's DIET intent classification system would then detect: **upload_evidence**
+The system's DIET **intent** classification system would then detect: **upload_evidence** <br>
+The **entity** would then be something like: **type_of_evidence = screenshot**
+
 
 
